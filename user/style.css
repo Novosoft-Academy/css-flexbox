@@ -1,0 +1,32 @@
+.img-container {
+    width: 300px;
+    height: 350px;
+    background-color: bisque;
+    border: solid 2px black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: 300px;
+    background-color: lavenderblush;
+    border: solid 2px black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    margin: 5px;
+}

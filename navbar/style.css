@@ -1,0 +1,39 @@
+header {
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 5px #c4c4c4;
+}
+
+nav {
+    flex-basis: 40%;
+    /* outline: solid 1px black; */
+}
+
+h1 {
+    flex-basis: 60%;
+    flex-shrink: 0;
+    /* outline: solid 1px black; */
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.nav-link a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}

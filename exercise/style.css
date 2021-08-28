@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+#card-container {
+    margin: auto;
+    width: 400px;
+    height: 500px;
+}
+
+.image-container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+.info {
+    margin-top: 0;
+    height: 200px;
+    background-color: darkgray;
+}
